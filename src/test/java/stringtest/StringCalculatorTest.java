@@ -9,6 +9,7 @@ import stringtest.StringCalculator;
 public class StringCalculatorTest {
 	@Test
 	public void testString() {
+		assertEquals(0, new StringCalculator().add(""));
 		assertEquals(1, new StringCalculator().add("1"));
 	}
 }
